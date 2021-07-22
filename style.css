@@ -1839,7 +1839,7 @@ a:active{
     position: absolute;
     width: 80vw;
     height: auto;
-    left: -15.833vw;
+    left: -15vw;
     top: 2289vw;
     z-index: 0;
 }
@@ -1883,7 +1883,7 @@ a:active{
     position: absolute;
     width: 127vw;
     height: auto;
-    left: -21.597vw;
+    left: -21vw;
     top: 2490vw;
     z-index: 0;
 }
@@ -1909,7 +1909,7 @@ a:active{
     position: absolute;
     width: 91vw;
     height: auto;
-    left: 3.3vw;
+    left: 3.4vw;
     top: 2568vw;
     z-index: 0;
 }
@@ -1927,7 +1927,7 @@ a:active{
     position: absolute;
     width: 91vw;
     height: auto;
-    left: 3vw;
+    left: 3.4vw;
     top: 2710vw;
     z-index: 0;
 }
@@ -1936,7 +1936,7 @@ a:active{
     position: absolute;
     width: 91vw;
     height: auto;
-    left: 3.7vw;
+    left: 3.9vw;
     top: 2775vw;
     z-index: 0;
 }
@@ -2023,10 +2023,10 @@ a:active{
 /* Email */
 .email{
     position: absolute;
-    width: 4.375vw;
+    width: 5.6vw;
     height: auto;
-    left: 30vw;
-    top: 2867vw;
+    left: 29.32vw;
+    top: 2866.45vw;
     z-index: 2;
 }
 /* LinkedIn */
@@ -2034,7 +2034,7 @@ a:active{
     position: absolute;
     width: 4.375vw;
     height: auto;
-    left: 41vw;
+    left: 41.7vw;
     top: 2867vw;
     z-index: 2;
 }
@@ -2043,7 +2043,7 @@ a:active{
     position: absolute;
     width: 4.375vw;
     height: auto;
-    left: 52vw;
+    left: 52.9vw;
     top: 2867vw;
     z-index: 2;
 }
@@ -2052,7 +2052,7 @@ a:active{
     position: absolute;
     width: 4.375vw;
     height: auto;
-    left: 63vw;
+    left: 64.1vw;
     top: 2867vw;
     z-index: 2;
 }
@@ -2061,7 +2061,7 @@ a:active{
     position: absolute;
     width: 4.375vw;
     height: auto;
-    left: 74vw;
+    left: 75.3vw;
     top: 2867vw;
     z-index: 2;
 }
@@ -2070,7 +2070,7 @@ a:active{
     position: absolute;
     width: 4.375vw;
     height: auto;
-    left: 85vw;
+    left: 86.5vw;
     top: 2867vw;
     z-index: 2;
 }
