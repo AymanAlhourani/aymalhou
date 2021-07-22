@@ -1,0 +1,2076 @@
+/* Colors */
+:root {
+    --dark-color: #000000;
+}
+/* Margins */
+*{
+    margin: 0;
+    padding: 0;    
+}
+/* Fonts */
+body{
+    font-family: "Zilla Slab Highlight", "Yrsa"; 
+    font-size: 14px;
+    color: black;
+}
+/* Links */
+a:link{
+    color: black;
+    text-decoration: underline;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+/* Wrapper */
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 2881vw;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+/* Front Image */
+.frontimage{
+    position: absolute;
+    width: 100%;
+    height: 62.5vw;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    overflow: hidden;    
+}
+/* Ellipse */
+.frontellipse{
+    position: absolute;
+    width: 51vw;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    left: 50vw;
+    top: -90vw;
+    transform: rotate(15deg);
+    z-index: 2;  
+}
+/* Ayman */
+.person{
+    position: absolute;
+    width: 48.056vw;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    left: 45.833vw;
+    top: -0.0521%;
+    overflow: hidden;  
+    z-index: 2;   
+}
+/* Hi */
+.hi{
+    position: absolute;
+    width: 91px;
+    height: 86px;
+    left: 12.33vw;
+    top: 9.72vw;    
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: #FFFFFF;
+    z-index: 1;
+}
+/* I'm */
+.im{
+    position: absolute;
+    width: 302px;
+    height: 86px;
+    left: 10.04%;
+    top: 16.67vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+/* Ayman */
+.ayman{
+    position: absolute;
+    width: 219px;
+    height: 86px;
+    left: 12.26%;
+    top: 23.61vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+/* About */
+.about{
+    position: absolute;
+    width: 166px;
+    height: 5.347vw;
+    left: 4.167%;
+    top: 65.972vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* Intro */
+.intro{
+    position: absolute;
+    width: 90vw;
+    height: 17.014vw;
+    left: 4.167%;
+    top: 73.264vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Education */
+.education{
+    position: absolute;
+    width: 279px;
+    height: 5.347vw;
+    left: 4.167%;
+    top: 93.056vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* Edu */
+.edu{
+    position: absolute;
+    width: 90vw;
+    height: 6.806vw;
+    left: 4.167%;
+    top: 100.347vw;   
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+/* Portfolio */
+.portfolio{
+    position: absolute;
+    width: 241px;
+    height: 5.347vw;
+    left: 4.167%;
+    top: 109.931vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* Aero One */
+.aeroone{
+    position: absolute;
+    width: 90vw;
+    height: 13.611vw;
+    left: 4.167%;
+    top: 117.222vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Mesh Car */
+.meshcar{
+    position: absolute;
+    width: 92vw;
+    height: auto;
+    left: 3.2vw;
+    right: 0vw;
+    top: 127vw;
+    z-index: 1;
+}
+/* Aero Two */
+.aerotwo{
+    position: absolute;
+    width: 90vw;
+    height: 13.611vw;
+    left: 4.167%;
+    top: 176vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Flow Car */
+.flowcar{
+    position: absolute;
+    width: 154vw;
+    height: auto;
+    left: -25.5vw;
+    right: 0vw;
+    top: 169vw;
+    z-index: 0;
+}
+/* Aero Three */
+.aerothree{
+    position: absolute;
+    width: 90vw;
+    height: 17.014vw;
+    left: 4.167%;
+    top: 246.875vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Flow Car */
+.presscar{
+    position: absolute;
+    width: 170vw;
+    height: auto;
+    left: -35vw;
+    right: 0vw;
+    top: 261vw;
+    z-index: 0;
+}
+/* Aero Three */
+.aerofour{
+    position: absolute;
+    width: 90vw;
+    height: 13.611vw;
+    left: 4.167%;
+    top: 317vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 1;
+}
+/* Full Steer */
+.fullsteer{
+    position: absolute;
+    width: 94vw;
+    height: auto;
+    left: 3vw;
+    right: 0vw;
+    top: 334vw;
+    z-index: 0;
+}
+/* Steer One */
+.steerone{
+    position: absolute;
+    width: 90vw;
+    height: 13.611vw;
+    left: 4.167%;
+    top: 390vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 1;
+}
+/* U Joint Steer */
+.ujointsteer{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 0vw;
+    right: 0vw;
+    top: 393vw;
+    z-index: 0;
+}
+/* Steer Two */
+.steertwo{
+    position: absolute;
+    width: 90vw;
+    height: 10.208vw;
+    left: 4.167%;
+    top: 447vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Adaptor */
+.adaptor{
+    position: absolute;
+    width: 63vw;
+    height: auto;
+    left: -10vw;
+    right: 0vw;
+    top: 463vw;
+    z-index: 1;
+}
+/* Steer Three */
+.steerthree{
+    position: absolute;
+    width: 43.75vw;
+    height: 30.625vw;
+    left: 51.458%;
+    top: 463vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Ujoint */
+.ujoint{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 23vw;
+    top: 495vw;
+    z-index: 0;
+}
+/* Steer Four */
+.steerfour{
+    position: absolute;
+    width: 47.222vw;
+    height: 30.625vw;
+    left: 4.167%;
+    top: 500vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Perf Shaft */
+.perfshaft{
+    position: absolute;
+    width: 90vw;
+    height: auto;
+    left: -20vw;
+    top: 545vw;
+    z-index: 0;
+    transform: rotate(100.5deg); 
+}
+/* Steer Five */
+.steerfive{
+    position: absolute;
+    width: 41.597vw;
+    height: 47.986vw;
+    left: 51.458%;
+    top: 555vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Steer Six */
+.steersix{
+    position: absolute;
+    width: 90vw;
+    height: 10.208vw;
+    left: 4.167%;
+    top: 621vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* TL Motor */
+.tlmotor{
+    position: absolute;
+    width: 33.75vw;
+    height: auto;
+    left: 8vw;
+    top: 638vw;
+    z-index: 0;
+}
+/* RT Motor */
+.rtmotor{
+    position: absolute;
+    width: 46vw;
+    height: auto;
+    left: 46vw;
+    top: 645vw;
+    z-index: 0;
+}
+/* BL Motor */
+.blmotor{
+    position: absolute;
+    width: 38vw;
+    height: auto;
+    left: 9vw;
+    top: 677vw;
+    z-index: 0;
+}
+/* Motor One */
+.motorone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 722vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Left Motor */
+.leftmotor{
+    position: absolute;
+    width: 38vw;
+    height: auto;
+    left: 7vw;
+    top: 745vw;
+    z-index: 0;
+}  
+/* Right Motor */
+.rightmotor{
+    position: absolute;
+    width: 38vw;
+    height: auto;
+    left: 51vw;
+    top: 745.3vw;
+    z-index: 0;
+}
+/* Motor Two */
+.motortwo{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 790vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Left Mag */
+.leftmag{
+    position: absolute;
+    width: 47vw;
+    height: auto;
+    left: 3.7vw;
+    top: 814vw;
+    z-index: 0;
+}
+/* Right Mag */
+.rightmag{
+    position: absolute;
+    width: 37vw;
+    height: auto;
+    left: 54vw;
+    top: 821vw;
+    z-index: 0;
+}
+/* Motor Three */
+.motorthree{
+    position: absolute;
+    width: 90vw;
+    height: 24.861vw;
+    left: 4.167%;
+    top: 868vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Array Car */
+.arraycar{
+    position: absolute;
+    width: 105vw;
+    height: auto;
+    left: -6.5vw;
+    top: 899vw;
+    z-index: 0;
+}
+/* Strat One */
+.stratone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 947vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Top Ar Car */
+.toparcar{
+    position: absolute;
+    width: 102vw;
+    height: auto;
+    left: -2.5vw;
+    top: 958vw;
+    z-index: 0;
+}
+/* Strat Two */
+.strattwo{
+    position: absolute;
+    width: 90vw;
+    height: 27.153vw;
+    left: 4.167%;
+    top: 996vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Iso Array */
+.isoarray{
+    position: absolute;
+    width: 82.569vw;
+    height: auto;
+    left: 6.5vw;
+    top: 1028vw;
+    z-index: 0;
+}
+/* Strat Three */
+.stratthree{
+    position: absolute;
+    width: 90vw;
+    height: 29.306vw;
+    left: 4.167%;
+    top: 1076vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Left Pore */
+.leftpore{
+    position: absolute;
+    width: 58.681vw;
+    height: auto;
+    left: -9.2vw;
+    top: 1113vw;
+    z-index: 0;
+}
+/* Right Foam */
+.rightfoam{
+    position: absolute;
+    width: 58.681vw;
+    height: auto;
+    left: 50.556vw;
+    top: 1111vw;
+    z-index: 0;
+}
+/* Foam One */
+.foamone{
+    position: absolute;
+    width: 90vw;
+    height: 21.528vw;
+    left: 4.167%;
+    top: 1184vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Left Foam */
+.leftfoam{
+    position: absolute;
+    width: 58.681vw;
+    height: auto;
+    left: 20vw;
+    top: 1212vw;
+    z-index: 0;
+}
+/* Foam Two */
+.foamtwo{
+    position: absolute;
+    width: 90vw;
+    height: 32.153vw;
+    left: 4.167%;
+    top: 1283vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Skills */
+.skills{
+    position: absolute;
+    width: 146px;
+    height: 5.347vw;
+    left: 4.167%;
+    top: 1318vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* Skills One */
+.skillsone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 1324vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Catia */
+.catia{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 7.167%;
+    top: 1344vw;
+    z-index: 0;
+}
+/* BD1 */
+.bd1{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD2 */
+.bd2{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD3 */
+.bd3{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD3 */
+.bd4{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD3 */
+.bd5{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* Pointwise */
+.pointwise{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 52%;
+    top: 1344vw;
+    z-index: 0;
+}
+/* BD6 */
+.bd6{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD7 */
+.bd7{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD8 */
+.bd8{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD9 */
+.bd9{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* BD10 */
+.bd10{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1347vw;
+    z-index: 0;
+}
+/* ANSYS */
+.ansys{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 7.167%;
+    top: 1359vw;
+    z-index: 0;
+}
+/* BD11 */
+.bd11{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD12 */
+.bd12{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD13 */
+.bd13{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD14 */
+.bd14{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD15 */
+.bd15{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* Solidworks */
+.solidworks{
+    position: absolute;
+    width: 10.5vw;
+    height: auto;
+    left: 51.4%;
+    top: 1359vw;
+    z-index: 0;
+}
+/* BD16 */
+.bd16{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD17 */
+.bd17{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD18 */
+.bd18{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD19 */
+.bd19{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* BD20 */
+.bd20{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1362vw;
+    z-index: 0;
+}
+/* Figma */
+.figma{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 7.167%;
+    top: 1374vw;
+    z-index: 0;
+}
+/* BD21 */
+.bd21{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD22 */
+.bd22{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD23 */
+.bd23{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD24 */
+.bd24{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD25 */
+.bd25{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* Minitab */
+.minitab{
+    position: absolute;
+    width: 8.3vw;
+    height: auto;
+    left: 52.6%;
+    top: 1374vw;
+    z-index: 0;
+}
+/* BD26 */
+.bd26{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD27 */
+.bd27{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD28 */
+.bd28{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD29 */
+.bd29{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* BD30 */
+.bd30{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1377vw;
+    z-index: 0;
+}
+/* Github */
+.github{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 7.167%;
+    top: 1389vw;
+    z-index: 0;
+}
+/* BD31 */
+.bd31{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD32 */
+.bd32{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD33 */
+.bd33{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD34 */
+.bd34{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD35 */
+.bd35{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* Premier */
+.premier{
+    position: absolute;
+    width: 8.3vw;
+    height: auto;
+    left: 52.6%;
+    top: 1389vw;
+    z-index: 0;
+}
+/* BD36 */
+.bd36{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD37 */
+.bd37{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD38 */
+.bd38{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD39 */
+.bd39{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* BD40 */
+.bd40{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1392vw;
+    z-index: 0;
+}
+/* Skills Two */
+.skillstwo{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 1402vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Python */
+.python{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 7.167%;
+    top: 1422vw;
+    z-index: 0;
+}
+/* BD41 */
+.bd41{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD42 */
+.bd42{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD43 */
+.bd43{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD44 */
+.bd44{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD45 */
+.bd45{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* Matlab */
+.matlab{
+    position: absolute;
+    width: 8.3vw;
+    height: auto;
+    left: 52.6%;
+    top: 1422vw;
+    z-index: 0;
+}
+/* BD46 */
+.bd46{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD47 */
+.bd47{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD48 */
+.bd48{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD49 */
+.bd49{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* BD50 */
+.bd50{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1425vw;
+    z-index: 0;
+}
+/* HTML5 */
+.html5{
+    position: absolute;
+    width: 7.1vw;
+    height: auto;
+    left: 8%;
+    top: 1436vw;
+    z-index: 0;
+}
+/* BD51 */
+.bd51{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD52 */
+.bd52{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD53 */
+.bd53{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD54 */
+.bd54{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD55 */
+.bd55{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* CSS */
+.css{
+    position: absolute;
+    width: 7.2vw;
+    height: auto;
+    left: 53.5%;
+    top: 1436vw;
+    z-index: 0;
+}
+/* BD56 */
+.bd56{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD57 */
+.bd57{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD58 */
+.bd58{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD59 */
+.bd59{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* BD60 */
+.bd60{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1440vw;
+    z-index: 0;
+}
+/* Ardruino */
+.ardruino{
+    position: absolute;
+    width: 8.888vw;
+    height: auto;
+    left: 7.167%;
+    top: 1451vw;
+    z-index: 0;
+}
+/* BD61 */
+.bd61{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 19vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD62 */
+.bd62{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 24vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD63 */
+.bd63{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 29vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD64 */
+.bd64{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 34vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD65 */
+.bd65{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 39vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* Swift */
+.swift{
+    position: absolute;
+    width: 7.9vw;
+    height: auto;
+    left: 53.25%;
+    top: 1451.2vw;
+    z-index: 0;
+}
+/* BD66 */
+.bd66{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 63.833vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD67 */
+.bd67{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 68.833vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD68 */
+.bd68{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 73.833vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD69 */
+.bd69{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 78.833vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* BD70 */
+.bd70{
+    position: absolute;
+    width: 3.472vw;
+    height: auto;
+    left: 83.833vw;
+    top: 1454vw;
+    z-index: 0;
+}
+/* Academics */
+.academics{
+    position: absolute;
+    width: 320px;
+    height: 5.347vw;
+    left: 4.167%;
+    top: 1465vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* Acad One */
+.acadone{
+    position: absolute;
+    width: 90vw;
+    height: 10.417vw;
+    left: 4.167%;
+    top: 1472.5vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Pure Math */
+.puremath{
+    position: absolute;
+    width: 110vw;
+    height: auto;
+    left: -6vw;
+    top: 1489vw;
+    z-index: 0;
+}
+/* Pure One */
+.pureone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 1555vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Theo Phys */
+.theophys{
+    position: absolute;
+    width: 140vw;
+    height: auto;
+    left: -21vw;
+    top: 1574.5vw;
+    z-index: 0;
+}
+/* Theo One */
+.theoone{
+    position: absolute;
+    width: 90vw;
+    height: 25.764vw;
+    left: 4.167%;
+    top: 1652vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Sys Bio */
+.sysbio{
+    position: absolute;
+    width: 120vw;
+    height: auto;
+    left: -13vw;
+    top: 1675vw;
+    z-index: 0;
+}
+/* Theo One */
+.sysone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 1740vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Genetics */
+.genetics{
+    position: absolute;
+    width: 115vw;
+    height: auto;
+    left: -9vw;
+    top: 1749vw;
+    z-index: 0;
+}
+/* Gen One */
+.genone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 1812vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Gallery */
+.gallery{
+    position: absolute;
+    width: 198px;
+    height: 5.347vw;
+    left: 4.167%;
+    top: 1833vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* Gall One*/
+.gallone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 1837.5vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Mandlebulb */
+.frontmandle{
+    position: absolute;
+    width: 105vw;
+    height: auto;
+    left: -3.0vw;
+    top: 1845vw;
+    z-index: 0;
+}
+/* Mandle One */
+.mandleone{
+    position: absolute;
+    width: 90vw;
+    height: 11.111vw;
+    left: 4.167%;
+    top: 1947vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+.tleftmandle{
+    position: absolute;
+    width: 88.889vw;
+    height: auto;
+    left: -36vw;
+    top: 1960vw;
+    z-index: 0;
+}
+.trightmandle{
+    position: absolute;
+    width: 92vw;
+    height: auto;
+    left: 51.5vw;
+    top: 1960vw;
+    z-index: 0;
+}
+.centermandle{
+    position: absolute;
+    width: 36.111vw;
+    height: auto;
+    left: 31.944vw;
+    top: 2034.5vw;
+    z-index: 1;
+}
+.bleftmandle{
+    position: absolute;
+    width: 88.889vw;
+    height: auto;
+    left: -37vw;
+    top: 2055vw;
+    z-index: 0;
+}
+.brightmandle{
+    position: absolute;
+    width: 92vw;
+    height: auto;
+    left: 48vw;
+    top: 2055vw;
+    z-index: 0;
+}
+/* Turing One*/
+.turingone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 2141vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Turing Pattern */
+.turingpattern{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 0vw;
+    top: 2160vw;
+    z-index: 1;
+}
+/* Julia One*/
+.juliaone{
+    position: absolute;
+    width: 37.5vw;
+    height: 37.5vw;
+    left: 4.167%;
+    top: 2220vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Julia Right */
+.juliaright{
+    position: absolute;
+    width: 139.306vw;
+    height: auto;
+    left: -3.037vw;
+    top: 2220vw;
+    transform: rotate(-59deg);
+    z-index: 0;
+}
+/* Julia Two*/
+.juliatwo{
+    position: absolute;
+    width: 37.5vw;
+    height: 47.986vw;
+    left: 57%;
+    top: 2290vw;
+    font-family: Yrsa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Julia Left */
+.julialeft{
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    left: -15.833vw;
+    top: 2289vw;
+    z-index: 0;
+}
+/* Strange One*/
+.strangeone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 2337vw;
+    font-family: Yrsa; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Top Strange */
+.topstrange{
+    position: absolute;
+    width: 153.125vw;
+    height: auto;
+    left: -26vw;
+    top: 2347vw;
+    z-index: 0;
+}
+/* Mid Strange */
+.midstrange{
+    position: absolute;
+    width: 153.125vw;
+    height: auto;
+    left: -26.3vw;
+    top: 2420vw;
+    z-index: 1;
+}
+/* Bot Strange */
+.botstrange{
+    position: absolute;
+    width: 127vw;
+    height: auto;
+    left: -21.597vw;
+    top: 2490vw;
+    z-index: 0;
+}
+/* Fluid One*/
+.fluidone{
+    position: absolute;
+    width: 90vw;
+    height: 16.597vw;
+    left: 4.167%;
+    top: 2548vw;
+    font-family: Yrsa; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Top Fluid */
+.topfluid{
+    position: absolute;
+    width: 91vw;
+    height: auto;
+    left: 3.3vw;
+    top: 2568vw;
+    z-index: 0;
+}
+/* Second Fluid */
+.secondfluid{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 1.2vw;
+    top: 2635vw;
+    z-index: 0;
+}
+/* Third Fluid */
+.thirdfluid{
+    position: absolute;
+    width: 91vw;
+    height: auto;
+    left: 3vw;
+    top: 2710vw;
+    z-index: 0;
+}
+/* Bott Fluid */
+.bottfluid{
+    position: absolute;
+    width: 91vw;
+    height: auto;
+    left: 3.7vw;
+    top: 2775vw;
+    z-index: 0;
+}
+/* Quote*/
+.quoteone{
+    position: absolute;
+    width: 90vw;
+    height: 10.208vw;
+    left: 6.25%;
+    top: 2835vw;
+    font-family: Yrsa; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+.quotetwo{
+    position: absolute;
+    width: 90vw;
+    height: 10.208vw;
+    left: 40%;
+    top: 2842vw;
+    font-family: Yrsa; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.778vw;
+    line-height: 3.403vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+/* Bott Rect */
+.bottrect{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 0vw;
+    top: 2855vw;
+    z-index: 0;
+}
+/* Contact */
+.contact{
+    position: absolute;
+    width: 230px;
+    height: 5.347vw;
+    left: 4.861%;
+    top: 2864vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+/* Me */
+.me{
+    position: absolute;
+    width: 86px;
+    height: 5.347vw;
+    left: 14.2%;
+    top: 2870vw;
+    font-family: Zilla Slab Highlight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.44vw;
+    line-height: 77px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+/* Email */
+.email{
+    position: absolute;
+    width: 4.375vw;
+    height: auto;
+    left: 30vw;
+    top: 2867vw;
+    z-index: 2;
+}
+/* LinkedIn */
+.linkedin{
+    position: absolute;
+    width: 4.375vw;
+    height: auto;
+    left: 41vw;
+    top: 2867vw;
+    z-index: 2;
+}
+/* Facebook */
+.facebook{
+    position: absolute;
+    width: 4.375vw;
+    height: auto;
+    left: 52vw;
+    top: 2867vw;
+    z-index: 2;
+}
+/* Twitter */
+.twitter{
+    position: absolute;
+    width: 4.375vw;
+    height: auto;
+    left: 63vw;
+    top: 2867vw;
+    z-index: 2;
+}
+/* Instagram */
+.instagram{
+    position: absolute;
+    width: 4.375vw;
+    height: auto;
+    left: 74vw;
+    top: 2867vw;
+    z-index: 2;
+}
+/* Youtube */
+.youtube{
+    position: absolute;
+    width: 4.375vw;
+    height: auto;
+    left: 85vw;
+    top: 2867vw;
+    z-index: 2;
+}

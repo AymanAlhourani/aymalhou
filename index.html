@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Text Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@300&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">    
+    <!-- Style Reference -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Front Banner -->
+        <div class="hi"><p>Hi</p></div>    
+        <div class="im"><p>I'm</p></div>   
+        <div class="ayman"><p>Ayman</p></div>
+        <img src="images/75_ellipse.svg" alt="" class="frontellipse">  
+        <img src="images/74_person.png" alt="" class="person">       
+        <img class="frontimage" src="images/73_blackrect.svg" alt=""> 
+        <!-- About -->
+        <div class="about"><p>About</p></div>
+        <div class="intro"><p>I am a mechanical engineer specialized in the design and analysis of <a href="https://en.wikipedia.org/wiki/Energy_technology#Renewable_energy" target="_blank">renewable energy technologies</a> including solar, wind, tidal and wave energy systems. I have a particular interest in the design and manufacturing of electric road vehicles such as <a href="https://en.wikipedia.org/wiki/Solar_car" target="_blank">solar cars</a>. In addition, as a hobby, I like following up on the latest developments in <a href="https://en.wikipedia.org/wiki/Pure_mathematics" target="_blank">pure mathematics</a>, <a href="https://en.wikipedia.org/wiki/Theoretical_physics" target="_blank">theoretical physics</a>, and <a href="https://en.wikipedia.org/wiki/Computational_biology" target="_blank">computational biology</a>.</p></div>           
+        <!-- Education -->
+        <div class="education"><p>Education</p></div>
+        <div class="edu"><p>I earned my undergraduate degree in mechanical engineering from the University of Toronto on June, 23 2021, graduating with <a href="https://youtu.be/pFkcimw-618?t=1897" target="_blank">honours</a> from a class of 168 students.</p></div>  
+        <!-- Portfolio -->
+        <div class="portfolio"><p>Portfolio</p></div>
+        <!-- Aero -->
+        <div class="aeroone"><p>In March, 2017, I joined the aerodynamics team at <a href="http://blueskysolar.utoronto.ca/" target="_blank">Blue Sky Solar Racing</a>. I was responsible for optimizing the aerodynamic design of a solar car. My work involved setting up and running virtual <a href="https://en.wikipedia.org/wiki/Wind_tunnel" target="_blank">wind tunnel</a> computational fluid dynamics (<a href="https://en.wikipedia.org/wiki/Computational_fluid_dynamics" target="_blank">CFD</a>) simulations to evaluate the performances of alternative car body designs.</p></div>  
+        <img src="images/1_meshcar.png" alt="" class="meshcar">
+        <div class="aerotwo"><p>The design process was quite extensive. I first generated the CAD geometries of the alternative body designs in <a href="https://my.3dexperience.3ds.com/welcome/compass-world?utm_source=3ds&utm_medium=InternalLink&utm_content=CTA-Home-Page" target="_blank">CATIA</a>, then I meshed the geometries in <a href="https://www.pointwise.com/" target="_blank">Pointwise</a>, then setup and ran the CFD simulations in <a href="https://www.ansys.com/products/fluids/ansys-fluent" target="_blank">ANSYS Fluent</a>, and finally post processed the simulation results in <a href="https://www.ansys.com/products/fluids/ansys-fluent" target="_blank">CFD Post</a>.</p></div>  
+        <img src="images/2_flowcar.png" alt="" class="flowcar">
+        <div class="aerothree"><p>The goal of the simulations was to identify the nature of the airflow around the car and to quantify the <a href="https://en.wikipedia.org/wiki/Aerodynamic_force" target="_blank">aerodynamic forces</a> enacted on the body under a variety of driving conditions. An optimal body design is one which experiences minimal aerodynamic drag at a given driving speed, subject to some geometric constraints of the car’s body.</p></div>  
+        <img src="images/3_presscar.svg" alt="" class="presscar">
+        <div class="aerofour"><p>Pressure contours were generated to visualize such forces and identify critical locations on the body that could be modified to help minimize aerodynamic drag. Through a long and iterative design process, I was able to present a final stable design that exhibited a 32.2% reduction in aerodynamic losses.</p></div>  
+        <!-- Mech -->
+        <img src="images/4_fullsteer.png" alt="" class="fullsteer">
+        <div class="steerone"><p>In January, 2019, I joined the mechanical team at Blue Sky Solar Racing. I was tasked with designing the steering system of the car. Our goal was to improve upon the safety of the design from the previous generation to provide further protection to the driver in the event of a head-on collision.</p></div>  
+        <img src="images/5_ujointsteer.png" alt="" class="ujointsteer">
+        <div class="steertwo"><p>To achieve this, I designed a collapsible double-d <a href="https://en.wikipedia.org/wiki/Steering_column" target="_blank">steering shaft</a> in CATIA that can retract unto itself to absorb the impact from a collision. This shaft is connected to the <a href="https://en.wikipedia.org/wiki/Steering_wheel" target="_blank">steering wheel</a> at the top and to the <a href="https://en.wikipedia.org/wiki/Rack_and_pinion" target="_blank">rack and pinion</a> at the bottom via <a href="https://en.wikipedia.org/wiki/Universal_joint" target="_blank">u-joints</a>.</p></div>  
+        <img src="images/6_adaptor.png" alt="" class="adaptor">
+        <div class="steerthree"><p>To achieve these connections, some adaptors were required to link multiple shafts of differing diameters together. These adaptors were custom designed and manufactured by me.</p></div>  
+        <img src="images/7_ujoint.png" alt="" class="ujoint">
+        <div class="steerfour"><p>Other components were purchased instead, however, CAD geometries were still created for them to ensure compatibility with all other relevant parts of the steering system.</p></div>  
+        <img src="images/8_perfshaft.png" alt="" class="perfshaft">
+        <div class="steerfive"><p>To minimize the weight of the shaft and to contribute to the minimization of the total weight of the car, I carefully included perforations in the shaft while ensuring not to compromise its strength and capacity to safely withstand operating forces under standard driving conditions. Static structural simulations were conducted in <a href="https://www.ansys.com/products/structures/ansys-mechanical" target="_blank">ANSYS Mechanical</a> to verify the safety of the design.</p></div>  
+        <div class="steersix"><p>When the design was complete, all components were manufactured and assembled to test the steering system in a <a href="https://flic.kr/p/2k6xmxo" target="_blank">prototype</a> of the car. This was successfully accomplished and the steering system operated with no flaws.</p></div>  
+        <!-- Motor -->
+        <img src="images/9_tlmotor.png" alt="" class="tlmotor">
+        <img src="images/10_rtmotor.png" alt="" class="rtmotor">
+        <img src="images/11_blmotor.png" alt="" class="blmotor">
+        <div class="motorone"><p>In September, 2019, I began work on my capstone design project with <a href="https://www.pwc.ca/en/" target="_blank">Pratt & Whitney Canada</a>. My team and I were tasked with designing a high-speed and high-power density electric motor to be used in a <a href="https://en.wikipedia.org/wiki/Jet_engine" target="_blank">jet engine</a> assembly of an aircraft. I was personally responsible for all the mechanical, electrical, and thermal design aspects of the motor.</p></div>  
+        <img src="images/12_leftmotor.png" alt="" class="leftmotor">
+        <img src="images/13_rightmotor.png" alt="" class="rightmotor">
+        <div class="motortwo"><p>I began the process by identifying an optimal class of electric motors for the intended application: <a href="https://en.wikipedia.org/wiki/Permanent_magnet_motor" target="_blank">permanent magnet</a> electric motors. Then, given a set of operational requirements, I personally designed the <a href="https://en.wikipedia.org/wiki/Rotor_(electric)" target="_blank">rotors</a>, <a href="https://en.wikipedia.org/wiki/Stator" target="_blank">stators</a>, <a href="https://en.wikipedia.org/wiki/Electromagnetic_coil" target="_blank">windings</a>, and <a href="https://en.wikipedia.org/wiki/Internal_fan-cooled_electric_motor" target="_blank">cooling systems</a> of seven alternative motor designs. Every design choice made was scrutinized through extensive electromagnetic, thermal, and mechanical analyses in <a href="https://www.plm.automation.siemens.com/global/en/products/simcenter/motorsolve.html" target="_blank">Motorsolve</a>.</p></div>  
+        <img src="images/14_leftmag.png" alt="" class="leftmag">
+        <img src="images/15_rightmag.png" alt="" class="rightmag">
+        <div class="motorthree"><p>The objective of the analysis was to verify the safety and functionality of the motor designs and to compare the performances of the alternatives to identify an optimal motor topology. Once identified, a series of additional optimizations were carried out to finalize the design, including <a href="https://en.wikipedia.org/wiki/Rotordynamics" target="_blank">rotordynamic stabilization</a>, <a href="https://en.wikipedia.org/wiki/Radiator_(engine_cooling)#Coolant_pump" target="_blank">coolant flow regulation</a>, <a href="https://en.wikipedia.org/wiki/Electronic_speed_control" target="_blank">control systems integration</a>, and <a href="https://en.wikipedia.org/wiki/Material_selection" target="_blank">materials selection</a>. At the end, I compiled the details of all the designs in an engineering report and presented the final design to my satisfied clients.</p></div>  
+        <!-- Strategy -->
+        <img src="images/16_arraycar.png" alt="" class="arraycar">
+        <div class="stratone"><p>In January, 2020, I joined the strategy team at Blue Sky Solar Racing to help design  the <a href="https://en.wikipedia.org/wiki/Solar_panel" target="_blank">solar array</a> that powers the car. To utilize the sun’s energy effectively, the solar cells that comprise the array must be grouped strategically together to maximize the array’s power output under varying weather and terrain conditions.</p></div>  
+        <img src="images/17_toparcar.png" alt="" class="toparcar">
+        <div class="strattwo"><p>Shading plays a critical role in solar array design. When cells are unevenly illuminated, the array’s power output is significantly compromised due to bottle-necking effects of shaded cells. To overcome this, the electrical design of the solar array can be modified to minimize power losses in such cases. The inclusion of <a href="https://en.wikipedia.org/wiki/Diode" target="_blank">bypass diodes</a> and <a href="https://en.wikipedia.org/wiki/Maximum_power_point_tracking" target="_blank">maximum power point tracking</a> systems within the array are common solutions. However, an optimal electrical layout can only be found by conducting case studies and solar array simulations for a particular solar array.</p></div>  
+        <img src="images/18_isoarray.png" alt="" class="isoarray">
+        <div class="stratthree"><p>To carry out such simulations, I developed a complete solar array design software application within MATLAB. This application enables a user to identify an optimal electrical design for a solar array for some given date, duration, location, cell layout, and other car-specific parameters. The program can also simulate entire races, tracking all energy inputs and outputs along a route, providing critical telemetry data, and recommending optimal driving speeds and strategies along the race. Through this application, I was able to optimize the design of the array increasing its average power output by 14% along a race <a href="https://www.google.com/maps/d/u/0/viewer?mid=1ZGe49iCJ5fYsqflUwJu-ylu6ccPXdQhV&ll=37.33558131593356%2C-101.0804006056346&z=3" target="_blank">route</a> in the United States.</p></div>  
+        <!-- Foam -->
+        <img src="images/19_leftfoam.png" alt="" class="leftfoam">
+        <img src="images/20_rightfoam.png" alt="" class="rightfoam">
+        <div class="foamone"><p>In January, 2021, I interned at <a href="https://www.cnemcorp.com/" target="_blank">Cnem Corporation</a> as a materials engineer, working on developing a novel process for the manufacturing of open-cell aluminum and metal alloy <a href="https://en.wikipedia.org/wiki/Metal_foam" target="_blank">foams</a>. Large scale production of high-porosity and high-density aluminum foams is not feasible given the expensive manufacturing processes traditionally employed, hence, there was a need for alternative, economic, and environmentally friendly manufacturing processes that can enable the large scale production and adoption of this technology.</p></div>  
+        <img src="images/21_leftpore.png" alt="" class="leftpore">
+        <div class="foamtwo"><p>At Cnem Corporation, I was introduced to a new manufacturing process for metal foams. I was tasked with optimizing the developed processes to enhance the product’s quality, yielding foams of higher porosity and higher density. In particular, I worked extensively on identifying optimal compositions of alternative chemicals vital to the production of the foams, and studied the effects each chemical had on the quality of the final product. In four months time, through rigorous and extensive laboratory experimentation, I was able to identify an optimal class of chemicals that yielded foams of higher porosity and density combined.</p></div>  
+        <!-- Skills -->
+        <div class="skills"><p>Skills</p></div>
+        <div class="skillsone"><p>I have worked on many engineering projects over the years, and have become proficient in a wide array of computer software along the way. Below I listed all the software packages that I have used in my work, and for each, I assigned a skill score based on an honest judgement of my proficiency with the programs.</p></div>  
+        <!-- Catia -->
+        <a href="https://www.3ds.com/3dexperience" target="_blank"><img src="images/25_catia.svg" alt="" class="catia"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd1">
+        <img src="images/23_blackdot.svg" alt="" class="bd2">
+        <img src="images/23_blackdot.svg" alt="" class="bd3">
+        <img src="images/23_blackdot.svg" alt="" class="bd4">
+        <img src="images/23_blackdot.svg" alt="" class="bd5">
+        <!-- Pointwise -->
+        <a href="https://www.pointwise.com/" target="_blank"><img src="images/26_pw.svg" alt="" class="pointwise"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd6">
+        <img src="images/23_blackdot.svg" alt="" class="bd7">
+        <img src="images/23_blackdot.svg" alt="" class="bd8">
+        <img src="images/23_blackdot.svg" alt="" class="bd9">
+        <img src="images/23_blackdot.svg" alt="" class="bd10">
+        <!-- ANSYS -->
+        <a href="https://www.ansys.com/" target="_blank"><img src="images/28_ansys.svg" alt="" class="ansys"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd11">
+        <img src="images/23_blackdot.svg" alt="" class="bd12">
+        <img src="images/23_blackdot.svg" alt="" class="bd13">
+        <img src="images/23_blackdot.svg" alt="" class="bd14">
+        <img src="images/23_blackdot.svg" alt="" class="bd15">
+        <!-- Solidworks -->
+        <a href="https://www.solidworks.com/" target="_blank"><img src="images/27_solidworks.svg" alt="" class="solidworks"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd16">
+        <img src="images/23_blackdot.svg" alt="" class="bd17">
+        <img src="images/23_blackdot.svg" alt="" class="bd18">
+        <img src="images/23_blackdot.svg" alt="" class="bd19">
+        <img src="images/23_blackdot.svg" alt="" class="bd20">
+        <!-- Figma -->
+        <a href="https://www.figma.com/files/recent?fuid=983113927985906908" target="_blank"><img src="images/30_figma.svg" alt="" class="figma"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd21">
+        <img src="images/23_blackdot.svg" alt="" class="bd22">
+        <img src="images/23_blackdot.svg" alt="" class="bd23">
+        <img src="images/24_whitedot.svg" alt="" class="bd24">
+        <img src="images/24_whitedot.svg" alt="" class="bd25">
+        <!-- Minitab -->
+        <a href="https://www.minitab.com/en-us/" target="_blank"><img src="images/29_minitab.svg" alt="" class="minitab"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd26">
+        <img src="images/23_blackdot.svg" alt="" class="bd27">
+        <img src="images/23_blackdot.svg" alt="" class="bd28">
+        <img src="images/24_whitedot.svg" alt="" class="bd29">
+        <img src="images/24_whitedot.svg" alt="" class="bd30">
+        <!-- Github -->
+        <a href="https://github.com/" target="_blank"><img src="images/27_github.svg" alt="" class="github"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd31">
+        <img src="images/23_blackdot.svg" alt="" class="bd32">
+        <img src="images/24_whitedot.svg" alt="" class="bd33">
+        <img src="images/24_whitedot.svg" alt="" class="bd34">
+        <img src="images/24_whitedot.svg" alt="" class="bd35">
+        <!-- Premier -->
+        <a href="https://www.adobe.com/ca/products/premiere.html" target="_blank"><img src="images/31_premiere.svg" alt="" class="premier"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd36">
+        <img src="images/23_blackdot.svg" alt="" class="bd37">
+        <img src="images/24_whitedot.svg" alt="" class="bd38">
+        <img src="images/24_whitedot.svg" alt="" class="bd39">
+        <img src="images/24_whitedot.svg" alt="" class="bd40">
+        <!-- Skills 2 -->
+        <div class="skillstwo"><p>In addition to the above software, computer programming was essential in a lot of my work. Below I listed all the programming languages that I have used in the past, and, similarly, I have assigned a skill score based on an honest judgement of my proficiency in each.</p></div>  
+        <!-- Python -->
+        <a href="https://www.python.org/" target="_blank"><img src="images/33_python.svg" alt="" class="python"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd41">
+        <img src="images/23_blackdot.svg" alt="" class="bd42">
+        <img src="images/23_blackdot.svg" alt="" class="bd43">
+        <img src="images/23_blackdot.svg" alt="" class="bd44">
+        <img src="images/23_blackdot.svg" alt="" class="bd45">
+        <!-- Matlab -->
+        <a href="https://www.mathworks.com/products/matlab.html" target="_blank"><img src="images/34_matlab.svg" alt="" class="matlab"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd46">
+        <img src="images/23_blackdot.svg" alt="" class="bd47">
+        <img src="images/23_blackdot.svg" alt="" class="bd48">
+        <img src="images/23_blackdot.svg" alt="" class="bd49">
+        <img src="images/23_blackdot.svg" alt="" class="bd50">
+        <!-- HTML -->
+        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><img src="images/37_html5.svg" alt="" class="html5"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd51">
+        <img src="images/23_blackdot.svg" alt="" class="bd52">
+        <img src="images/23_blackdot.svg" alt="" class="bd53">
+        <img src="images/24_whitedot.svg" alt="" class="bd54">
+        <img src="images/24_whitedot.svg" alt="" class="bd55">
+        <!-- CSS -->
+        <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"><img src="images/36_css.svg" alt="" class="css"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd56">
+        <img src="images/23_blackdot.svg" alt="" class="bd57">
+        <img src="images/23_blackdot.svg" alt="" class="bd58">
+        <img src="images/24_whitedot.svg" alt="" class="bd59">
+        <img src="images/24_whitedot.svg" alt="" class="bd60">
+        <!-- Ardruino -->
+        <a href="https://www.arduino.cc/" target="_blank"><img src="images/45_ardruino.svg" alt="" class="ardruino"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd61">
+        <img src="images/23_blackdot.svg" alt="" class="bd62">
+        <img src="images/24_whitedot.svg" alt="" class="bd63">
+        <img src="images/24_whitedot.svg" alt="" class="bd64">
+        <img src="images/24_whitedot.svg" alt="" class="bd65">
+        <!-- Swift -->
+        <a href="https://www.apple.com/ca/swift/" target="_blank"><img src="images/40_swift.svg" alt="" class="swift"></a>
+        <img src="images/23_blackdot.svg" alt="" class="bd66">
+        <img src="images/23_blackdot.svg" alt="" class="bd67">
+        <img src="images/24_whitedot.svg" alt="" class="bd68">
+        <img src="images/24_whitedot.svg" alt="" class="bd69">
+        <img src="images/24_whitedot.svg" alt="" class="bd70">
+        <!-- Academics -->
+        <div class="academics"><p>Academics</p></div>
+        <div class="acadone"><p>One of my favourite things to do in my spare time is to learn absolutely everything that I can about everything. Here are just a few subjects that I have been reading up on recently.</p></div>  
+        <!-- Pure Math  -->
+        <img src="images/47_puremath.png" alt="" class="puremath">
+        <div class="pureone"><p>I have always loved mathematics, not only for its utility, but also for its innate beauty. <a href="https://en.wikipedia.org/wiki/Pure_mathematics" target="_blank">Pure mathematics</a> is my favourite subject, so I spend my time watching and enjoying lectures on a wide array of related topics, including <a href="https://en.wikipedia.org/wiki/Real_analysis" target="_blank">real analysis</a>, <a href="https://en.wikipedia.org/wiki/Linear_algebra" target="_blank">linear algebra</a>, <a href="https://en.wikipedia.org/wiki/Topology" target="_blank">topology</a>, <a href="https://en.wikipedia.org/wiki/Differential_equation" target="_blank">differential equations</a>, <a href="https://en.wikipedia.org/wiki/Complex_analysis" target="_blank">complex analysis</a>, <a href="https://en.wikipedia.org/wiki/Abstract_algebra" target="_blank">abstract algebra</a>, and <a href="https://en.wikipedia.org/wiki/Differential_geometry" target="_blank">differential geometry</a>.</p></div>  
+        <!-- Theo Phys -->
+        <img src="images/48_theophys.png" alt="" class="theophys">
+        <div class="theoone"><p><a href="https://en.wikipedia.org/wiki/Theoretical_physics" target="_blank">Theoretical physics</a> is my second favourite subject. The on-going race of developing a <a href="https://en.wikipedia.org/wiki/Theory_of_everything" target="_blank">theory of everything</a> is most exciting to me. I dream of one day contributing to this effort to help mankind once for all understand all that could be understood about the universe. To start this journey and to familiarize myself with the language I need to begin making contributions to the subject, I have been watching Frederic Schuller’s <a href="https://www.youtube.com/c/FredericSchuller/playlists" target="_blank">lectures</a> on the geometric anatomy of theoretical physics and on quantum mechanics.</p></div>  
+        <!-- Sys Bio -->
+        <img src="images/49_sysbio.png" alt="" class="sysbio">
+        <div class="sysone"><p><a href="https://en.wikipedia.org/wiki/Systems_biology" target="_blank">Systems biology</a> is my third favorite subject. It is a discipline in biology that studies and models biological systems using computational tools. As of recently, I have been watching MIT’s <a href="https://ocw.mit.edu/courses/biology/7-91j-foundations-of-computational-and-systems-biology-spring-2014/" target="_blank">lecture series</a> on the foundations of computational and systems biology, in addition to NPTEL’s <a href="https://www.youtube.com/playlist?list=PLyqSpQzTE6M88xI8FIcKarSBN2yPqMKbd" target="_blank">series</a> on the same subject.</p></div>  
+        <!-- Genetics -->
+        <img src="images/50_genetics.png" alt="" class="genetics">
+        <div class="genone"><p><a href="https://en.wikipedia.org/wiki/Genetics" target="_blank">Genetics</a> is my fourth favorite subject. The simple biological code that dictates the nature of the essential molecules of life has always fascinated me. Learning as much as I can about the subject and following up on its latest developments is one of my favorite things to do. Recently I have been watching MIT’s introductory series on <a href="https://ocw.mit.edu/courses/biology/7-016-introductory-biology-fall-2018/" target="_blank">biology</a> and on <a href="https://ocw.mit.edu/courses/biology/7-03-genetics-fall-2004/" target="_blank">genetics</a>.</p></div>  
+        <!-- Gallery -->
+        <div class="gallery"><p>Gallery</p></div>
+        <div class="gallone"><p>Outside academics, I spend my time learning about and generating my own mathematical art. Below is a collection of mathematical visualizations I personally generated in <a href="https://softology.com.au/voc.htm" target="_blank">Visions of Chaos</a>. Each is given a name and a brief description.</p></div>  
+        <!-- Mandelbulb -->
+        <img src="images/56_brigthmandle.png" alt="" class="frontmandle">
+        <div class="mandleone"><p><a href="https://en.wikipedia.org/wiki/Mandelbulb" target="_blank">Mandelbulbs</a> are three dimensional fractals based on powers of vectors in R3. These bulbs have a repeating fractal structure at all scales, and come in many shapes and patterns based on chosen formulae.</p></div>  
+        <img src="images/52_tleftmadle.png" alt="" class="tleftmandle">
+        <img src="images/53_trightmadle.png" alt="" class="trightmandle">
+        <img src="images/54_centermandle.png" alt="" class="centermandle">
+        <img src="images/55_bleftmandle.png" alt="" class="bleftmandle">
+        <img src="images/51_frontmadle.png" alt="" class="brightmandle">
+        <!-- Turing -->
+        <div class="turingone"><p><a href="https://en.wikipedia.org/wiki/Turing_pattern" target="_blank">Turing patterns </a> were introduced by Alan Turing in his <a href="https://en.wikipedia.org/wiki/The_Chemical_Basis_of_Morphogenesis" target="_blank">paper</a> titled “The Chemical Basis of Morphogenesis”. These patterns arise in simple diffusion simulations of two substances and are surprisingly reminiscent of patterns found in nature.</p></div>  
+        <img src="images/57_turingpattern.png" alt="" class="turingpattern">
+        <!-- Julia -->
+        <div class="juliaone"><p>Quaternion Julia sets are 4D extensions of traditional 2D <a href="https://en.wikipedia.org/wiki/Julia_set" target="_blank">Julia fractals</a>. These structures are generated through functions which operate on predefined quaternions. The shapes shown represent 2D slices of 4D fractals.</p></div>  
+        <img src="images/58_rightjuilia.png" alt="" class="juliaright">
+        <img src="images/59_leftjulia.png" alt="" class="julialeft">
+        <div class="juliatwo"><p>Many beautiful shapes can be generated through an arbitrary choice of quaternions and iteration functions. However, there are only particular classes of inputs that can produce structures which are bound and do not diverge to infinity.</p></div>  
+        <!-- Strange -->
+        <div class="strangeone"><p><a href="https://en.wikipedia.org/wiki/Attractor" target="_blank">Strange attractors</a> are a class of attractors in the field of dynamical systems that possess a fractal structure. The trajectories shown represent the set of points in the phase space of a particular system that are mapped over time. Attractors are the topologies to which these trajectories are bound.</p></div>  
+        <img src="images/60_topstrange.png" alt="" class="topstrange">
+        <img src="images/61_midstrange.png" alt="" class="midstrange">
+        <img src="images/62_botstrange.png" alt="" class="botstrange">
+        <!-- Fluid -->
+        <div class="fluidone"><p><a href="https://en.wikipedia.org/wiki/Fluid_dynamics" target="_blank">Fluid flow</a> is beautiful. Below is a collection of my favourite 2D Eulerian fluid flow visualizations that I generated.</p></div>  
+        <img src="images/63_topfluid.bmp" alt="" class="topfluid">
+        <img src="images/64_secondfluid.bmp" alt="" class="secondfluid">
+        <img src="images/65_thirdfluid.bmp" alt="" class="thirdfluid">
+        <img src="images/66_bottfluid.bmp" alt="" class="bottfluid">
+        <!-- Quote -->
+        <div class="quoteone"><p>‘The most incomprehensible thing about the world is that it is comprehensible.’</p></div>  
+        <div class="quotetwo"><p>~ Albert Einstein ~</p></div>  
+        <!-- Contact -->
+        <img src="images/73_blackrect.svg" alt="" class="bottrect">
+        <div class="contact"><p>Contact</p></div>  
+        <div class="me"><p>Me</p></div> 
+        <!-- Email  -->
+        <a href="mailto:ayman.alhourani@mail.utoronto.ca?"><img src="images/71_email.svg" alt="" class="email"></a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/aymalhou/" target="_blank"><img src="images/70_linkedin.svg" alt="" class="linkedin"></a>
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/aymalhou" target="_blank"><img src="images/67_facebook.svg" alt="" class="facebook"></a>
+        <!-- Twitter -->
+        <a href="https://twitter.com/aymalhou" target="_blank"><img src="images/68_twitter.svg" alt="" class="twitter"></a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/aymalhou/" target="_blank"><img src="images/69_instagram.svg" alt="" class="instagram"></a>
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/channel/UC2EaH9cdGz_nr2jQpoNYUIQ/featured" target="_blank"><img src="images/72_youtube.svg" alt="" class="youtube"></a>
+    </div>
+    <!-- Main Reference --> 
+    <script src="main.js"></script>
+</body>
+
+</html>
