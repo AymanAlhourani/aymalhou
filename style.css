@@ -2033,10 +2033,10 @@ a:active{
 /* LinkedIn */
 .linkedin{
     position: absolute;
-    width: 4.375vw;
+    width: 4.345vw;
     height: auto;
     left: 41.7vw;
-    top: 2867vw;
+    top: 2867.1vw;
     z-index: 2;
 }
 /* Facebook */
@@ -2054,7 +2054,7 @@ a:active{
     width: 4.375vw;
     height: auto;
     left: 64.1vw;
-    top: 2867vw;
+    top: 2867.05vw;
     z-index: 2;
 }
 /* Instagram */
@@ -2063,13 +2063,13 @@ a:active{
     width: 4.375vw;
     height: auto;
     left: 75.3vw;
-    top: 2867vw;
+    top: 2867.05vw;
     z-index: 2;
 }
-/* Youtube */
-.youtube{
+/* Git White */
+.gitwhite{
     position: absolute;
-    width: 4.375vw;
+    width: 4.4vw;
     height: auto;
     left: 86.5vw;
     top: 2867vw;
