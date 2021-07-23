@@ -372,12 +372,13 @@ a:active{
 /* Adaptor */
 .adaptor{
     position: absolute;
-    width: 63vw;
+    width: 73.958vw;
     height: auto;
     left: -10vw;
     right: 0vw;
-    top: 463vw;
+    top: 462vw;
     z-index: 1;
+    transform: rotate(-26deg);
 }
 /* Steer Three */
 .steerthree{
