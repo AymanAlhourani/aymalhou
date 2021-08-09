@@ -58,14 +58,14 @@ a:active{
 /* Ellipse */
 .frontellipse{
     position: absolute;
-    width: 51vw;
+    width: 80vw;
     height: auto;
     opacity: 1;
     position: absolute;
-    left: 50vw;
-    top: -90vw;
-    transform: rotate(15deg);
-    z-index: 2;  
+    left: 53vw;
+    top: -150vw;
+    transform: rotate(17deg);
+    z-index: 1;  
 }
 /* Ayman */
 .person{
@@ -74,7 +74,7 @@ a:active{
     height: auto;
     opacity: 1;
     position: absolute;
-    left: 45.833vw;
+    left: 48.5vw;
     top: -0.0528%;
     overflow: hidden;  
     z-index: 2;   
@@ -95,7 +95,7 @@ a:active{
     align-items: center;
     text-align: center;    
     color: #FFFFFF;
-    z-index: 1;
+    z-index: 2;
 }
 /* I'm */
 .im{
@@ -199,6 +199,7 @@ a:active{
     display: flex;
     align-items: center;
     color: #000000;
+    z-index: 2;
 }
 /* Portfolio */
 .portfolio{
